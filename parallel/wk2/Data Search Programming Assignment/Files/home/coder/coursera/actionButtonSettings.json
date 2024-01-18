@@ -1,0 +1,28 @@
+{
+  "actionButtons": {
+    "defaultColor": "white",
+    "commands": [
+      {
+        "cwd": "/home/coder/project/",
+        "name": "Build Code",
+        "color": "white",
+        "singleInstance": true,
+        "command": "make clean build"
+      },
+      {
+        "cwd": "/home/coder/project/",
+        "name": "Run and Log Attempts",
+        "color": "white",
+        "singleInstance": true,
+        "command": "./run.sh"
+      },
+      {
+        "cwd": "/home/coder/.local/share/code-server/User/coursera/",
+        "name": "Submit Assignment",
+        "color": "white",
+        "singleInstance": true,
+        "command": "python3 submit.py simple-search-attempt-1,simple-search-attempt-2,complex-search-attempt-1,complex-search-attempt-2,extra-credit-input-file-attempt"
+      }
+    ]
+  }
+}
